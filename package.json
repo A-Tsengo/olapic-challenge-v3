@@ -1,0 +1,24 @@
+{
+  "name": "olapic",
+  "version": "1.0.0",
+  "description": "olapic SA technical challenge version 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./js/src -d ./js/dest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Tsengo/olapic-challenge-v3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Tsengo/olapic-challenge-v3/issues"
+  },
+  "homepage": "https://github.com/A-Tsengo/olapic-challenge-v3#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

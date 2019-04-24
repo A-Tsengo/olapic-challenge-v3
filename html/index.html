@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Share How You Wear It</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- production version, optimized for size and speed -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="header">
+                <header>Lorem ipsum dolor sit amet.</header> <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a aliquam sem. Vestibulum in velit felis.
+                    Nam hendrerit efficitur purus.</p>
+                <br />
+            </div>
+        </div>
+        <div class="images">
+            <div class="image-group" v-for="group of groups">
+                <div v-for="element in group">
+                    <img v-bind:src=element alt="">
+
+                </div>
+            </div>
+        </div>
+        </div>
+            <div>
+                <a v-if="seen" id="more">load more images</a>
+            </div>
+    </div>
+    <script src="../js/src/index.js"></script>
+    <!-- <script src="../js/dest/index.js"></script> -->
+</body>
+
+</html>
