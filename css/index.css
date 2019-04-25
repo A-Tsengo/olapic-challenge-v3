@@ -3,67 +3,165 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 body {
-    text-align: center; 
+    text-align: center;
     margin: 5% 0;
 }
+
 header {
     font-size: 2.5em;
+    padding: 20px 0 0 0;
 }
+
+p {
+    padding: 20px 0;
+}
+
 .hidden {
     display: none;
 }
+
 #app {
     /* background-color: brown; */
     overflow: hidden;
 }
+
 .container {
     width: 1200px;
     margin: auto;
 }
+
 .header {
     /* width: 75%; */
     width: 100%;
@@ -74,6 +172,7 @@ header {
     /* border-style: solid; */
     text-transform: uppercase;
 }
+
 .images {
     /* width: 1400px; */
     /* width: 75%; */
@@ -86,6 +185,7 @@ header {
     /* border-color: white; */
     /* border: 9px; */
 }
+
 .image-group {
     /* height: 600px;
     width: 1200px; */
@@ -94,12 +194,14 @@ header {
     /* padding: 0;
     margin: 0; */
 }
+
 .image-group:nth-of-type(odd) div:nth-of-type(1) {
     width: 50%;
     height: 100%;
     float: left;
     /* margin: 1px; */
 }
+
 .image-group:nth-of-type(odd) div:nth-of-type(1) img {
     width: 100%;
     height: 100%;
@@ -116,6 +218,7 @@ header {
     float: left;
     /* margin: 1px; */
 }
+
 .image-group:nth-of-type(odd) div:not(:nth-of-type(1)) img {
     width: 100%;
     height: 100%;
@@ -123,12 +226,14 @@ header {
     border-color: white;
     border-width: 1px;
 }
+
 .image-group:nth-of-type(even) div:nth-of-type(1) {
     width: 50%;
     height: 100%;
     float: right;
     /* margin: 1px; */
 }
+
 .image-group:nth-of-type(even) div:nth-of-type(1) img {
     width: 100%;
     height: 100%;
@@ -144,6 +249,7 @@ header {
     float: right;
     /* margin: 1px; */
 }
+
 .image-group:nth-of-type(even) div:not(:nth-of-type(1)) img {
     width: 100%;
     height: 100%;
@@ -151,6 +257,7 @@ header {
     border-color: white;
     border-width: 1px;
 }
+
 #more {
     /* clear: both; */
     display: block;
@@ -161,16 +268,24 @@ header {
     /* font-weight: bold; */
     text-transform: uppercase;
     font-size: 1em;
-    display: inline-block;
+    display: block;
 }
+
+#more a:visited {
+    color: black;
+}
+
 #more a:hover {
-    background-color: black;
     color: white;
+    background-color: black;
 }
+
 body {
     /* border: 2px;
     border-style: solid; */
 }
+
 html {
     height: 125%;
+    font-family: 'Francois One', Helvetica, Arial, sans-serif;
 }
