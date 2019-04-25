@@ -13,7 +13,7 @@ var vm = new Vue({
     data: {
         responses: "",
         groups: [],
-        seen: true
+        seen: true 
     }
   })
 

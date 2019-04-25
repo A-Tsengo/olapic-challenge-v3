@@ -155,7 +155,9 @@ header {
     /* clear: both; */
     display: block;
     text-decoration: underline;
-    margin-top: 20px;
+    clear: both;
+    /* margin-top: 20px; */
+    padding-top: 20px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1em;
