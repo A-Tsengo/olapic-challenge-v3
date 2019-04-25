@@ -3,8 +3,8 @@
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 (function () {
-    var olapicApi = "https://photorankapi-a.akamaihd.net/customers/215757/media/recent?rights_given=1&include_tagged_galleries=0&auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2";
-    var mediaArray = [];
+    // const olapicApi = "https://photorankapi-a.akamaihd.net/customers/215757/media/recent?rights_given=1&include_tagged_galleries=0&auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2";
+    var olapicApi = "https://photorankapi-a.akamaihd.net/customers/215757/media/rated?rights_given=1&include_tagged_galleries=0&auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2";
     var vm = new Vue({
         el: "#app",
         data: {
